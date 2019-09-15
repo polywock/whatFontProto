@@ -1,0 +1,12 @@
+{
+  "name": "WhatFont",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+  "name": "What font?"
+  },
+  "background":{
+      "scripts":["background.js"]
+  },
+  "permissions": ["activeTab"]
+}
